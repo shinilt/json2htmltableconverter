@@ -7,8 +7,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=['GET'])
 def home():
-    return "Der Service läuft gut- vielen Dank - $#!5!|"
-@cross_origin()     
+    return "Der Service läuft gut- vielen Dank - $#!5!|"     
 @app.route("/generatetable",methods=['GET', 'POST'])
 def generatetable():
 # make sure data is sent to data
