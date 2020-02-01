@@ -13,4 +13,4 @@ six==1.13.0
 soupsieve==1.9.5 
 Werkzeug==0.16.0 
 json2table==1.1.5 
-json==2.0.9
+json==2.0.5
